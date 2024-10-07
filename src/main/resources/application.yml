@@ -1,0 +1,21 @@
+spring:
+  sql:
+    init:
+      mode: never
+
+  application:
+    name: springboot-developer
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+  h2:
+    console:
+      enabled: true
+
+#  jpa:
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    defer-datasource-initialization: true
